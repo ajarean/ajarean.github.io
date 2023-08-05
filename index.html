@@ -3,24 +3,53 @@
     <head>
         <meta charset="utf-8"/>
         <title>Andy Jarean</title>
+        <link rel="stylesheet" href="styles/colors.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- opengraph meta -->
+        <meta property="og:url" content="https://ajarean.github.io/" />
+        <meta property="og:image" content="https://ajarean.github.io/images/andy.png" />
+        <meta property="og:description" content="Second year UCR student studying computer science interested in finding ways to help others and improve quality of life." />
+        <meta property="og:title" content="Andy Jarean" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:width" conent="225" />
+        <meta property="og:profile:first_name" content="Andy" />
+        <meta property="og:profile:last_name" content="Jarean" />
+        <meta property="og:profile:username" content="ajarean" />
+        <meta property="og:profile:gender" content="male" />
+        <meta property="og:locale" content="en_US" />
+        <!-- twitter meta -->
+        <meta property="twitter:card" property="summary" />
+        <meta property="twitter:title" property="Andy Jarean" />
+        <meta proeprty="twitter:description" property="Andy Jarean" />
+        <meta property="twitter:image" property="https://ajarean.github.io/images/ajarean" />
+        <!-- linkedin meta -->
+        <meta name="author" content="Andy Jarean" />
     </head>
     <body>
-        <img id="placeholder"
-        src="https://cdn.discordapp.com/attachments/772641345142784051/1136106458078003310/Screenshot_20230801-1820362.png"
-        alt="pic of andy"
-        class="profile">
-        <h1>Andy Jarean</h1>
-        <h2>UC Riverside 2026 Computer Science</h2>
-        <a href="https://www.linkedin.com/in/andy-jarean-155864234/">LinkedIn</a> 
-        <a href="mailto:ajare002@ucr.edu">Email</a> 
-        <a href="https://instagram.com/andy_jarean?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Instagram</a>
+        <!--aboutme-->
+        <div class="image-container">
+            <img id="placeholder"
+            src="./images/andy.png"
+            alt="pic of andy"
+            class="profile">
+            <h1>Andy Jarean</h1>
+            <h2>UC Riverside 2026 Computer Science</h2>
+            <a href="https://www.linkedin.com/in/andy-jarean-155864234/"><img src="images/linkedin.png" height="30" width="30"></a> 
+            <a href="mailto:ajare002@ucr.edu"><img src="images/gmail.png" height="30" width="30"></a> 
+            <a href="https://instagram.com/andy_jarean?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><img src="images/instagram.png" height="30" width="30"></a>
+        </div>
+        <hr size="2">
         <h3>About Me</h3>
         <p>Second year UCR student studying computer science interested in finding ways to help others and improve quality of life.</p>
+        <hr size="2">
+        <!--work/experience-->
         <h3>Experience</h3>
         <table>
             <tbody>
                 <tr>
-                    <td>Dublin Farmers' Market, Vendor</td>
+                    <td><bold>Dublin Farmers' Market, </bold>Vendor</td>
                     <td>2022-present</td>
                 </tr>
                 <tr>
@@ -29,7 +58,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Gamespawn at UCR, Project Coordinator</td>
+                    <td><bold>Gamespawn at UCR, </bold>Project Coordinator</td>
                     <td>2023-present</td>
                 </tr>
                 <tr>
@@ -37,28 +66,25 @@
                 </tr>
             </tbody>
         </table>
+        <hr size="2">
+        <!--education-->
         <h3>Education</h3>
         <table>
-            <thead>
-                <tr>
-                    <th>Degree</th>
-                    <th>School</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
             <tbody>
                 <tr>
-                    <td>High School Diploma</td>
-                    <td>Amador Valley High School</td>
+                    <td class="pad-right">High School Diploma</td>
+                    <td class="pad-right">Amador Valley High School</td>
                     <td>2018-2022</td>
                 </tr>
                 <tr>
-                    <td>Bachelor of Science in Computer Science</td>
-                    <td>University of California Riverside</td>
+                    <td class="pad-right">Bachelor of Science in Computer Science</td>
+                    <td class="pad-right">University of California Riverside</td>
                     <td>2022-present</td>
                 </tr>
             </tbody>
         </table>
+        <hr size="2">
+        <!--courses-->
         <h3>Coursework</h3>
         <ul>
             <li>Introduction to Data Structures and Algorithms</li>
@@ -67,11 +93,15 @@
             <li>Logic Design</li>
             <li>Software Construction</li>
         </ul>
+        <hr size="2">
+        <!--skills-->
         <h3>Skills</h3>
         <ul>
             <li>C++</li>
             <li>Go</li>
         </ul>
+        <hr size="2">
+        <!--projects-->
         <h3>Projects</h3>
         <ul>
             <li>
@@ -79,5 +109,11 @@
                 : created a narrative-driven text-based role-playing game in C++ to be played in a terminal. Developed following SOLID principles and using Git/Github.
             </li>
         </ul>
+        <hr size="2">
+        <div class="attributions">
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Pixel perfect - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Pixel perfect - Flaticon</a>
+        </div>
     </body>
 </html>
